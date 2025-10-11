@@ -6,10 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 function loadM3U(url) {
   fetch(url)
-    .then(response => {
-      if (!response.ok) throw new Error('Errore nel caricamento della lista');
-      return response.text();
-    })
+    .then(response => response.text())
     .then(data => {
       const lines = data.split('\n');
       const list = document.getElementById('channelList');
