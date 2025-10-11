@@ -12,10 +12,11 @@
     <h1>📺 IPTV Player</h1>
   </header>
 
-  <main>
-    <video id="video" controls></video>
-    <section id="channelList" class="channel-grid"></section>
-  </main>
+ <h1>IPTV Player</h1>
+  <input type="text" id="m3uUrl" placeholder="Inserisci URL della lista M3U">
+  <button onclick="loadM3U()">Carica lista</button>
+  <ul id="channelList"></ul>
+  <video id="video" controls width="640" height="360"></video>
 
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
