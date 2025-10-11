@@ -16,12 +16,26 @@ function loadM3U(url) {
       list.innerHTML = '';
       for (let i = 0; i < lines.length; i++) {
         if (lines[i].startsWith('#EXTINF')) {
-          const name = lines[i].split(',')[1];
+          const info = lines[i];
           const streamUrl = lines[i + 1];
-          const li = document.createElement('li');
-          li.textContent = name;
-          li.onclick = () => playStream(streamUrl);
-          list.appendChild(li);
+          const name = info.split(',')[1];
+          const logoMatch = info.match(/tvg-logo="([^"]+)"/);
+          const logo = logoMatch ? logoMatch[1] : 'icon.png';
+
+          const div = document.createElement('div');
+          div.className = 'channel';
+
+          const img = document.createElement('img');
+          img.src = logo;
+          img.alt = name;
+          img.onclick = () => playStream(streamUrl);
+
+          const label = document.createElement('p');
+          label.textContent = name;
+
+          div.appendChild(img);
+          div.appendChild(label);
+          list.appendChild(div);
         }
       }
     })
