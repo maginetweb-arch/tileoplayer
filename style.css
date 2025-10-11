@@ -15,9 +15,11 @@ header {
 video {
   display: block;
   margin: 20px auto;
-  width: 90%;
-  max-width: 800px;
+  width: 100%;
+  max-width: 960px;
+  aspect-ratio: 16 / 9;
   border-radius: 10px;
+  background: #000;
   box-shadow: 0 0 20px rgba(255,255,255,0.1);
 }
 
