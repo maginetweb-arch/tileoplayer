@@ -1,33 +1,56 @@
 body {
-  font-family: sans-serif;
-  background: #111;
-  color: #eee;
-  text-align: center;
+  margin: 0;
+  background-color: #0f0f0f;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin: 20px;
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+video {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+.channel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
 }
 
 .channel {
-  width: 120px;
   text-align: center;
   cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.channel:hover {
+  transform: scale(1.05);
 }
 
 .channel img {
   width: 100px;
   height: 100px;
   object-fit: contain;
-  border: 2px solid #444;
-  background: #222;
+  border-radius: 10px;
+  background-color: #222;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 
 .channel p {
-  margin-top: 5px;
-  font-size: 0.9em;
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #ccc;
 }
+
