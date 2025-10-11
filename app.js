@@ -39,16 +39,28 @@ function loadM3U(url) {
 
 function playStream(url) {
   const video = document.getElementById('video');
-  video.src = ''; // reset
+  video.pause();
+  video.src = '';
+  video.load();
+
+  if (window.hls) {
+    window.hls.destroy();
+    window.hls = null;
+  }
+  if (window.dashPlayer) {
+    window.dashPlayer.reset();
+    window.dashPlayer = null;
+  }
 
   if (url.endsWith('.m3u8') && Hls.isSupported()) {
-    const hls = new Hls();
-    hls.loadSource(url);
-    hls.attachMedia(video);
+    window.hls = new Hls();
+    window.hls.loadSource(url);
+    window.hls.attachMedia(video);
   } else if (url.endsWith('.mpd')) {
-    const player = dashjs.MediaPlayer().create();
-    player.initialize(video, url, true);
+    window.dashPlayer = dashjs.MediaPlayer().create();
+    window.dashPlayer.initialize(video, url, true);
   } else {
     video.src = url;
+    video.play();
   }
 }
