@@ -6,18 +6,16 @@ window.addEventListener('DOMContentLoaded', () => {
 
 function loadM3U(url) {
   fetch(url)
-    .then(response => response.text())
+    .then(res => res.text())
     .then(data => {
       const lines = data.split('\n');
       const list = document.getElementById('channelList');
       list.innerHTML = '';
       for (let i = 0; i < lines.length; i++) {
         if (lines[i].startsWith('#EXTINF')) {
-          const info = lines[i];
+          const name = lines[i].split(',')[1];
+          const logo = lines[i].match(/tvg-logo="([^"]+)"/)?.[1] || 'icon.png';
           const streamUrl = lines[i + 1];
-          const name = info.split(',')[1];
-          const logoMatch = info.match(/tvg-logo="([^"]+)"/);
-          const logo = logoMatch ? logoMatch[1] : 'icon.png';
 
           const div = document.createElement('div');
           div.className = 'channel';
@@ -36,15 +34,20 @@ function loadM3U(url) {
         }
       }
     })
-    .catch(error => alert('Errore: ' + error.message));
+    .catch(err => alert('Errore nel caricamento della playlist: ' + err.message));
 }
 
 function playStream(url) {
   const video = document.getElementById('video');
-  if (Hls.isSupported() && url.endsWith('.m3u8')) {
+  video.src = ''; // reset
+
+  if (url.endsWith('.m3u8') && Hls.isSupported()) {
     const hls = new Hls();
     hls.loadSource(url);
     hls.attachMedia(video);
+  } else if (url.endsWith('.mpd')) {
+    const player = dashjs.MediaPlayer().create();
+    player.initialize(video, url, true);
   } else {
     video.src = url;
   }
