@@ -5,23 +5,29 @@ body {
   text-align: center;
 }
 
-video {
-  margin-top: 20px;
-  border: 2px solid #444;
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
+.channel {
+  width: 120px;
+  text-align: center;
   cursor: pointer;
-  margin: 5px 0;
-  padding: 5px;
-  background: #222;
-  border: 1px solid #555;
 }
-li:hover {
-  background: #333;
+
+.channel img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border: 2px solid #444;
+  background: #222;
+}
+
+.channel p {
+  margin-top: 5px;
+  font-size: 0.9em;
 }
