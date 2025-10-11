@@ -4,10 +4,12 @@ self.addEventListener('install', e => {
       return cache.addAll([
         '/',
         '/index.html',
-        '/app.js',
         '/style.css',
+        '/app.js',
         '/manifest.json',
-        'https://cdn.jsdelivr.net/npm/hls.js@latest'
+        '/icon.png',
+        'https://cdn.jsdelivr.net/npm/hls.js@latest',
+        'https://cdn.dashjs.org/latest/dash.all.min.js'
       ]);
     })
   );
