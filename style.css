@@ -23,7 +23,7 @@ video {
 
 .channel-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
   padding: 20px;
   justify-items: center;
@@ -53,4 +53,3 @@ video {
   font-size: 0.85em;
   color: #ccc;
 }
-
