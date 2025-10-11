@@ -8,12 +8,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>IPTV Player</h1>
-  <div id="channelList" class="grid"></div>
-  <video id="video" controls width="640" height="360"></video>
+  <header>
+    <h1>📺 IPTV Player</h1>
+  </header>
+
+  <main>
+    <video id="video" controls></video>
+    <section id="channelList" class="channel-grid"></section>
+  </main>
 
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="app.js"></script>
 </body>
 </html>
-
