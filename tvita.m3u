@@ -182,7 +182,7 @@ https://sportitaliaamd.akamaized.net/live/Donna_TV/hls/42EB42E58EA44362045EFEA80
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 
 #EXTINF:-1 tvg-id="AlmaTv.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/almatv.png"tvg-chno="65"group-title="Altro":http-user-agent="",ALMA TV
-https://sportitaliaamd.akamaized.net/live/Alma_TV/hls/8B620B531085AB9D79DAB5B98F2ADEF3A7F5BE2B/index.m3u8?hdnts=exp=1757760595~acl=/*~hmac=66e2c5f24803560fe6e7bfbed8de5ecdcbb3961c53d428817121a65f8b58e616
+https://sportitaliaamd.akamaized.net/live/Alma_TV/hls/8B620B531085AB9D79DAB5B98F2ADEF3A7F5BE2B/index.m3u8?hdnts=exp=1764952132~acl=/*~hmac=81c0e90274a05c5cf9d44a8a7a1f564689d06ebd7d6ee282dd9eeac55663706b
 
 #EXTINF:-1 tvg-id="Radio105TV.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/radio105tv.png"tvg-chno="66"group-title="Radio":http-user-agent="HbbTV/1.6.1",Radio 105 TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
