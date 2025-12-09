@@ -1,0 +1,109 @@
+#EXTM3U
+
+#EXTINF:0, Rai Radio 1
+https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S18493106/rCMKqdMFKPBB/icecast
+
+#EXTINF:0, Rai Radio 2
+https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S35942484/yp5F67151K92/icecast
+
+#EXTINF:0, Rai Radio 3
+http://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S56630579/yEbkcBtIoSwd/icecast
+
+#EXTINF:0, RTL
+https://streamingv2.shoutcast.com/rtl-1025
+
+#EXTINF:0, RDS 100% Grandi Successi
+https://icstream.rds.radio/rds
+
+#EXTINF:0, Radio Deejay
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/master_ma.m3u8
+
+#EXTINF:0, Radio Capital
+https://streamcdnb1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiocapital/radiocapital/play1.m3u8
+
+#EXTINF:0, Radio Kiss Kiss
+https://kisskiss.fluidstream.eu/KissKiss.mp3
+
+#EXTINF:0, R101 Diretta
+http://icecast.unitedradio.it/r101
+
+#EXTINF:0, Virgin Radio
+http://icecast.unitedradio.it/Virgin.mp3
+
+#EXTINF:0, Radio 105
+http://icecast.105.net/105.mp3
+
+#EXTINF:0, RMC Radio Monte Carlo
+http://edge.radiomontecarlo.net/RMC.mp3
+
+#EXTINF:0, Radio m2o
+https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/master_ma.m3u8
+
+#EXTINF:0, Radio 24
+http://shoutcast.radio24.it:8000/listen.pls
+
+#EXTINF:0, Bella e Monella
+https://klasse1.fluidstream.eu/bella
+
+#EXTINF:0, Radio Subasio
+https://icy.unitedradio.it/Subasio.mp3
+
+#EXTINF:0, RadioNorba
+http://onair11.xdevel.com:9990/
+
+#EXTINF:0, Radionorba Music 
+https://stream6.xdevel.com/audio1s975885-1083/stream/icecast.audio
+
+#EXTINF:0, Love FM
+https://ice07.fluidstream.net/lovefm.mp3
+
+#EXTINF:0, Classic Hits
+https://classichitsradio.streamingmedia.it/play
+
+#EXTINF:0, Radio Reporter
+https://stream10.xdevel.com/audio34s975552-2039/stream/icecast.audio
+
+#EXTINF:0, RTL Best
+https://streamingv2.shoutcast.com/rtl-1025-best
+
+#EXTINF:0, RTL Radio Zeta
+https://streamingv2.shoutcast.com/radio-zeta
+
+#EXTINF:0, RTL Bro&Sis
+https://streamingv2.shoutcast.com/rtl-1025-broandsis
+
+#EXTINF:0, RTL Romeo & Juliet
+https://streamingv2.shoutcast.com/rtl-1025-romeoandjuliet
+
+#EXTINF:0, RTL Radiofreccia
+https://streamingv2.shoutcast.com/radiofreccia
+
+#EXTINF:0, Radio LatteMiele
+https://sr15.inmystream.it/stream/lattemiele
+
+#EXTINF:0, Radio Ibiza
+https://kisskiss.fluidstream.eu/ibiza.mp3
+
+#EXTINF:0, Discoradio
+https://stream.rds.radio/audio/disco.stream_aac/playlist.m3u8
+
+#EXTINF:0, Radio Cuore
+https://stream10.xdevel.com/audio32s975552-1839/stream/icecast.audio
+
+#EXTINF:0, LifeGate Radio
+https://stream3.xdevel.com/audio0s975809-424/stream/icecast.audio
+
+#EXTINF:0, Radio Sportiva
+https://onair20.xdevel.com/proxy/radiosportiva?mp=/;
+
+#EXTINF:0, Radio Studio Più
+https://ice.studiopiu.net/puglia.aac
+
+#EXTINF:0, Radio Rama
+https://ssl1.mediastreaming.it:7024/
+
+#EXTINF:0, Radio Skylab Salento
+http://37.187.126.64:8000/skylab.mp3
+
+#EXTINF:0, Jetradio
+https://stream.jetradio.it/listen/jetradio/radio.mp3
