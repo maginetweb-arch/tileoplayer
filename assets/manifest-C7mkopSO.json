@@ -1,0 +1,38 @@
+{
+  "id": "/tileoplay/assets/index.html",
+  "short_name": "TileoPlay",
+  "name": "TileoPlay Media Hub",
+  "start_url": "/tileoplay/assets/index.html",
+  "scope": "/tileoplay/assets/",
+  "display": "standalone",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/tileoplay/assets/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/tileoplay/assets/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/tileoplay/assets/screenshots/screen-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/tileoplay/assets/screenshots/screen-mobile.png",
+      "sizes": "640x960",
+      "type": "image/png"
+    }
+  ]
+}
