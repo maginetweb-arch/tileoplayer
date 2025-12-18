@@ -1,8 +1,8 @@
 Tileo Player
 # TVITA 🇮🇹  
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/maginetweb-arch/trwnet)  
+[![Version](https://img.shields.io/badge/version-2.2.6-blue.svg)](https://github.com/maginetweb-arch/trwnet)  
 
-Lista dei canali tv in chiaro italiani per Smart Tv - PC - Smartphone e Tablet
+Webplayer IPTV 
 
 IPTV-Italia
 Questa repository contiene tutti i link ai principali canali TV italiani in file m3u da aprire con un qualsiasi programma che supporti iptv playlist. 
