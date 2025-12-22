@@ -100,11 +100,12 @@ https://onair20.xdevel.com/proxy/radiosportiva?mp=/;
 https://ice.studiopiu.net/puglia.aac
 
 #EXTINF:0, Radio Rama
-https://ssl1.mediastreaming.it:7024/
+https://ssl1.mediastreaming.it:7024/;
 
 #EXTINF:0, Radio Skylab Salento
-http://37.187.126.64:8000/skylab.mp3
+https://ns333420.ip-37-187-126.eu/skylab.mp3
 
 #EXTINF:0, Jetradio
 https://stream.jetradio.it/listen/jetradio/radio.mp3
+
 
