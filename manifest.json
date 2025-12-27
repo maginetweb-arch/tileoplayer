@@ -1,9 +1,9 @@
 {
-  "id": "/tileoplay/assets/index.html",
+  "id": "/tileoplay/index.html",
   "short_name": "TileoPlay",
   "name": "TileoPlay Media Hub",
-  "start_url": "/tileoplay/assets/index.html",
-  "scope": "/tileoplay/assets/",
+  "start_url": "/tileoplay/index.html",
+  "scope": "/tileoplay/",
   "display": "standalone",
   "theme_color": "#0f172a",
   "background_color": "#0f172a",
