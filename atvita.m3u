@@ -2,17 +2,17 @@
 
 #EXTINF:-1 tvg-id="Rai1.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/rai1.png"tvg-chno="1"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai 1
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
+https://raiuno3-live.akamaized.net/hls/live/2017910/raiuno3/raiuno3/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="Rai2.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/rai2.png"tvg-chno="2"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai 2
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://viamotionhsi.netplus.ch/live/eds/rai2/browser-HLS8/rai2.m3u8
+https://raidue3-live.akamaized.net/hls/live/2017983/raidue3/raidue3/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="Rai3.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/rai3.png"tvg-chno="3"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai 3
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://viamotionhsi.netplus.ch/live/eds/rai3/browser-HLS8/rai3.m3u8
+https://raitre3-live.akamaized.net/hls/live/2018002/raitre3/raitre3/playlist.m3u8
 
 
 #EXTINF:-1 tvg-id="Rete4.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/rete4.png"tvg-chno="4"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",Rete 4
@@ -42,7 +42,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd
 
 #EXTINF:-1 tvg-id="Rai4.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/rai4.png"tvg-chno="21"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai 4
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv
+https://raiquattro3-live.akamaized.net/hls/live/2018003/raiquattro3/raiquattro3/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Iris.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/iris.png"tvg-chno="22"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",Iris
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -50,15 +50,15 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd
 
 #EXTINF:-1 tvg-id="Rai5.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/rai5.png"tvg-chno="23"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai 5
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv
+https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.mpd
 
 #EXTINF:-1 tvg-id="RaiMovie.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raimovie.png"tvg-chno="24"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Movie
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://streamcdnr6-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raimovie1/hls/playlist_ma.m3u8?baseuri=%2Fraimovie1%2Fhls%2F&tstart=0&tend=1767089770&tof=86400&tk2=4a321cf1272a2d09540a5d30338323f21e5b9538cfa389bc82d6b5d57bcbdc56
+https://raipremium3-live.akamaized.net/hls/live/2018013/raipremium3/raipremium3/playlist.m3u8
 
 #EXTINF:-1 tvg-id="RaiPremium.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raipremium.png"tvg-chno="25"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Premium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
+https://raipremium3-live.akamaized.net/hls/live/2018013/raipremium3/raipremium3/playlist.m3u8
 
 #EXTINF:-1 tvg-id="CieloTv.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/cielo.png"tvg-chno="26"group-title="Sky":http-user-agent="",Cielo
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -117,11 +117,11 @@ https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 #EXTINF:-1 tvg-id="RaiGulp.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raigulp.png"tvg-chno="42"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Gulp
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
+https://raigulp1-dash-live.akamaized.net/dash/live/663985/raigulp1/manifest.mpd
 
 #EXTINF:-1 tvg-id="RaiYoyo.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raiyoyo.png"tvg-chno="43"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Yoyo
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
+https://raiyoyo1-dash-live.akamaized.net/dash/live/663949/raiyoyo1/manifest.mpd
 
 #EXTINF:-1 tvg-id="Frisbee.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/frisbee.png"tvg-chno="44"group-title="Discovery":http-user-agent="",Frisbee
 https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8
@@ -154,7 +154,7 @@ https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 
 #EXTINF:-1 tvg-id="RaiStoria.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raistoria.png"tvg-chno="54"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Storia
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
+https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-HLS8/raistoria.m3u8
 
 #EXTINF:-1 tvg-id="MediasetExtra.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/mediasetextra.png"tvg-chno="55"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",Mediaset Extra
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -165,7 +165,7 @@ https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 
 #EXTINF:-1 tvg-id="RaiScuola.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raiscuola.png"tvg-chno="57"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Scuola
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
+https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-HLS8/raiscuola.m3u8
 
 #EXTINF:-1 tvg-id="RaiSport.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raisport+hd.png"tvg-chno="58"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Sport + HD
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -176,7 +176,7 @@ https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8
 https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8
 
 #EXTINF:-1 tvg-id="Sportitalia.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/sportitalia.png"tvg-chno="60"group-title="Altro":http-user-agent="",Sportitalia
-https://origin.streamup.eu/sportitalia/sihd_480p/playlist.m3u8
+https://edge-mi-010.streamup.eu/sportitalia/sihd_abr2/sportitalia/sihd_720p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="il61.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/il61.png"tvg-chno="61"group-title="Altro":http-user-agent="",IL 61
 https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
