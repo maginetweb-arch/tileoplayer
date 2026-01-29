@@ -99,7 +99,7 @@ https://onair20.xdevel.com/proxy/radiosportiva?mp=/;
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/RDL/studiopiu.jpg", Radio Studio Più
 https://ice.studiopiu.net/puglia.aac
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/RDL/A.jpg", Radio Rama
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/RDL/rama.jpg", Radio Rama
 https://ssl1.mediastreaming.it:7024/;
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/RDL/hybrid.jpg", HYBRID
@@ -107,4 +107,5 @@ https://nr9.newradio.it/stream/content/;
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/RDL/jetradio.jpg", Jetradio
 https://stream.jetradio.it/listen/jetradio/radio.mp3
+
 
