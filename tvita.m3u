@@ -252,7 +252,7 @@ https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlis
 https://5f22d76e220e1.streamlock.net:443/eurotv/eurotv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Iunior TV"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/iuniortv.png"tvg-chno="803"group-title="Altro":http-user-agent="",Iunior TV 
-https://5f22d76e220e1.streamlock.net:443/iuniortv/iuniortv/playlist.m3u8
+https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Retemia"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/retemia.png"tvg-chno="804"group-title="Altro":http-user-agent="",Rete Mia
 https://5db313b643fd8.streamlock.net/rete/rete/playlist.m3u8
