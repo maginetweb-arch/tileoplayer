@@ -1,50 +1,175 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <meta name="theme-color" content="#0f172a" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>TileoPlay</title>
-    <link rel="manifest" href="./assets/manifest-C7mkopSO.json">
-    <link rel="icon" type="image/png" href="./img/icon-192.png">
-    <link rel="apple-touch-icon" href="./img/icon-192.png">
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Players -->
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TileoPlayer | Minimal IPTV & Radio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --accent: #000000;
+            --secondary: #757575;
+            --border: #ececec;
+        }
 
-    <script type="importmap">
-{
-  "imports": {
-    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
-    "vite": "https://esm.sh/vite@^7.3.0"
-  }
-}
-</script>
-  <script type="module" crossorigin src="./assets/index-DlaTELqw.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-xtWQy-Co.css">
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            padding: 40px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            font-weight: 600;
+            font-size: 1.2rem;
+            letter-spacing: -0.5px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--secondary);
+            font-size: 0.9rem;
+            margin-left: 30px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        .hero {
+            padding: 120px 5%;
+            max-width: 900px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 300;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            letter-spacing: -2px;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--secondary);
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 60px;
+            padding: 80px 5%;
+            background-color: #fafafa;
+        }
+
+        .feature-card h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .feature-card p {
+            color: var(--secondary);
+            font-size: 0.95rem;
+        }
+
+        .cta-section {
+            padding: 100px 5%;
+            text-align: center;
+            border-top: 1px solid var(--border);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: var(--accent);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            padding: 40px 5%;
+            font-size: 0.8rem;
+            color: var(--secondary);
+            text-align: center;
+            border-top: 1px solid var(--border);
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            header { flex-direction: column; gap: 20px; }
+            nav a { margin: 0 15px; }
+        }
+    </style>
 </head>
-  <body class="bg-slate-950 text-white overflow-hidden select-none">
-    <div id="root" class="h-screen w-screen flex flex-col"></div>
-    
-    
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./sw.js')
-            .then(() => console.log('SW registrato con successo'))
-            .catch((err) => console.log('SW fallito', err));
-        });
-      }
-    </script>
+<body>
+
+    <header>
+        <div class="logo">TILEOPLAYER</div>
+        <nav>
+            <a href="#features">Caratteristiche</a>
+            <a href="#download">Download</a>
+            <a href="https://github.com">GitHub</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>L'essenza della visione. L'anima dell'ascolto.</h1>
+            <p>Un'esperienza IPTV e Radio progettata per chi apprezza la precisione e la semplicità. Senza distrazioni, solo i tuoi contenuti.</p>
+            <a href="#download" class="btn">Inizia ora</a>
+        </section>
+
+        <section id="features" class="features">
+            <div class="feature-card">
+                <h3>IPTV Engine</h3>
+                <p>Supporto nativo per liste M3U8 con gestione fluida dei canali e integrazione EPG avanzata per non perdere mai nulla.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Radio HD</h3>
+                <p>Un modulo audio dedicato che supporta i flussi ad alta fedeltà, con metadati in tempo reale per ogni brano.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Privacy First</h3>
+                <p>I tuoi dati non lasciano mai il dispositivo. Nessun tracciamento, nessuna analisi, solo pura riproduzione.</p>
+            </div>
+        </section>
+
+        <section id="download" class="cta-section">
+            <h2>Pronto a ridefinire il tuo streaming?</h2>
+            <p style="color: var(--secondary); margin-bottom: 30px;">TileoPlayer è disponibile gratuitamente per tutte le piattaforme principali.</p>
+            <a href="#" class="btn">Scarica per Desktop</a>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 TileoPlayer Project. Estetica e Performance.
+    </footer>
+
 </body>
 </html>
