@@ -73,7 +73,7 @@ https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
 
 #EXTINF:-1 tvg-id="LA5.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/la5.png"tvg-chno="30"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",La 5
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd
+https://live02-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="RealTime.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/realtime.png"tvg-chno="31"group-title="Discovery":http-user-agent="",Real Time
 https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
@@ -104,7 +104,7 @@ https://live02-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="Boing.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/boing.png"tvg-chno="40"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",Boing
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
+https://live02-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="K2.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/k2.png"tvg-chno="41"group-title="Discovery":http-user-agent="",K2
 https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8
@@ -122,7 +122,7 @@ https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a
 
 #EXTINF:-1 tvg-id="Cartoonito.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/cartoonito.png"tvg-chno="46"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",Cartoonito
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
+https://live02-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="Super.it"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Super%21_logo_2025.png"tvg-chno="47"group-title="Altro":http-user-agent="",Super!
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
@@ -141,7 +141,7 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnt
 
 #EXTINF:-1 tvg-id="TGCom24.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/tgcom24.png"tvg-chno="51"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",TGCOM 24
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
+https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="DMAX.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/dmax.png"tvg-chno="52"group-title="Discovery":http-user-agent="",DMAX
 https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
@@ -185,11 +185,11 @@ https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Radio105TV.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/radio105tv.png"tvg-chno="66"group-title="Radio":http-user-agent="HbbTV/1.6.1",Radio 105 TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/manifest.mpd
+https://live02-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="R101TV.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/r101tv.png"tvg-chno="67"group-title="Radio":http-user-agent="HbbTV/1.6.1",R101 TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/manifest.mpd
+https://live02-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="DeejayTV.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/deejaytv.png"tvg-chno="69"group-title="Radio":http-user-agent="",Deejay TV
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
@@ -209,7 +209,7 @@ https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/p
 
 #EXTINF:-1 tvg-id="VirginRadio.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/virginradiotv.png"tvg-chno="257"group-title="Radio":http-user-agent="HbbTV/1.6.1",VIRGIN RADIO
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/manifest.mpd
+https://live02-col.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="RadioFrecciaTV.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/radiofrecciatv.png"tvg-chno="258"group-title="Radio":http-user-agent="",RADIOFRECCIA
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
@@ -228,7 +228,7 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/p
 
 #EXTINF:-1 tvg-id="RadioMontecarlo.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/radiomontecarlotv.png"tvg-chno="772"group-title="Radio":http-user-agent="HbbTV/1.6.1",RMC
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/manifest.mpd
+https://live02-col.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="RadioTvSerieA.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/radiotvseriea.png"tvg-chno="899"group-title="Radio":http-user-agent="",Radio TV Serie A 
 https://tr.legaseriea-live1.cdn.netrw.it/seriea/restreamer/seriea_client/gpu-a-c0-8/restreamer/outgest/84d19a87-f82f-4aa2-80cd-2ab1105eac79/manifest.m3u8
