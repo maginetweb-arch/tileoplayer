@@ -89,7 +89,7 @@ https://stream10.xdevel.com/audio32s975552-1839/stream/icecast.audio
 https://stream3.xdevel.com/audio0s975809-424/stream/icecast.audio
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/RDL/sportiva.jpg", Radio Sportiva
-https://maginetweb-arch.github.io/tileoplayer/radioita.m3u
+https://sportiva.inmystream.it/stream/sportiva
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/RDL/lattemiele.jpg", Radio LatteMiele
 https://sr15.inmystream.it/stream/lattemiele
