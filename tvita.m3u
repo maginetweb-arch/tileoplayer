@@ -77,8 +77,10 @@ https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7D/DASH/Live.mpd
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd
 
-#EXTINF:-1 tvg-id="RealTime.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/realtime.png"tvg-chno="31"group-title="Discovery":http-user-agent="",Real Time
-https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
+#EXTINF:-1 tvg-id="RealTime.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/realtime.png"tvg-chno="31"group-title="Discovery":http-user-agent="HbbTV/1.6.1"",Real Time
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9e148332ec644190976b3c12e59aa1d4:2a1ba25dbd50db6bd3f5c78d22374a5e,2f0e7f395ffe4ca3b13e278b7fd4fe49:0bc5b16b42987699ab5ccc427d2d3a9b
+https://https://d2op4s24rubfe0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up3xdjecl66jn/out/v1/54acbe71ddae4c9986c03fad1352bc84/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="QVC.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/qvc.png"tvg-chno="32"group-title="Altro":http-user-agent="",QVC
 https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
@@ -97,8 +99,10 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/manifest.mpd
 #EXTINF:-1 tvg-id="RTL102.5TV.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/rtl1025tv.png"tvg-chno="36"group-title="Radio":http-user-agent="",RTL 102.5
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
 
-#EXTINF:-1 tvg-id="Discovery.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/discovery.png"tvg-chno="37"group-title="Discovery":http-user-agent="",Discovery TV
-https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
+#EXTINF:-1 tvg-id="Discovery.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/discovery.png"tvg-chno="37"group-title="Discovery":http-user-agent="HbbTV/1.6.1",Discovery TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cd1223723a4f4e2e8b559bf496d4ce2d:336a493f6b609572202c27ec1ce3904c,d7e2ce610537490db0c0c6689daf7f4d:a3384da6beb1d44e6579d066f39bba2e
+https://d3a5c87efixjp8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-94vzyl58b7u8n/out/v1/12837340dbdf42f2b13481a5ca6f80b2/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="GialloTV.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/giallo.png"tvg-chno="38"group-title="Discovery":http-user-agent="",Giallo
 https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8
@@ -148,8 +152,10 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnt
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
 
-#EXTINF:-1 tvg-id="DMAX.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/dmax.png"tvg-chno="52"group-title="Discovery":http-user-agent="",DMAX
-https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
+#EXTINF:-1 tvg-id="DMAX.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/dmax.png"tvg-chno="52"group-title="Discovery":http-user-agent="HbbTV/1.6.1",DMAX
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b50bfbff8fa14bda96d92025417d784f:8f183160378160a4494c7d3c35db96ef,eeb9d5f050034218a56d94407ced2f2d:3d32eda3dd788800a3e760b2e595110a
+https://d24suwc4j2wvyy.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-09ap0j3u2xm1u/out/v1/1ef9705b7c534751889b6e01bb032f80/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="RaiStoria.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raistoria.png"tvg-chno="54"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Storia
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
