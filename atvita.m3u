@@ -30,10 +30,9 @@ https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-id="Tv8.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/tv8.png"tvg-chno="8"group-title="Sky":http-user-agent="",TV8
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 
-#EXTINF:-1 tvg-id="Nove.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/nove.png"tvg-chno="9"group-title="Discovery":http-user-agent="http-user-agent=HbbTV/1.6.1",NOVE
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fdae53ded91e4d4299accc4f0153bba9:95f1177a20f6e637d2a9c3db2ccaa901
-https://d3pkcyie9gav9y.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jrrq3jtymmzoc/out/v1/fdb9d129ff7f4a7bbc8fe0902122e48f/HLS_CMAF_DRM/index.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine
+https://d3pkcyie9gav9y.cloudfront.net/out/v1/fdb9d129ff7f4a7bbc8fe0902122e48f/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="Mediaset20.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/20mediaset.png"tvg-chno="20"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",20 Mediaset
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -78,10 +77,14 @@ https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7D/DASH/Live.mpd
 https://live02-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="RealTime.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/realtime.png"tvg-chno="31"group-title="Discovery":http-user-agent="",Real Time
-https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine
+https://d2op4s24rubfe0.cloudfront.net/out/v1/54acbe71ddae4c9986c03fad1352bc84/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="FoodNetwork.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/foodnetwork.png"tvg-chno="33"group-title="Discovery":http-user-agent="",Food Network
-https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine
+https://d9kc4bu8iry3b.cloudfront.net/out/v1/dcecf7d9fd2b49c59e85a65016ddc255/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="Cine34.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/cine34.png"tvg-chno="34"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",Cine34
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -95,10 +98,14 @@ https://live02-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
 
 #EXTINF:-1 tvg-id="Discovery.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/discovery.png"tvg-chno="37"group-title="Discovery":http-user-agent="",Discovery TV
-https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine
+https://d3a5c87efixjp8.cloudfront.net/out/v1/12837340dbdf42f2b13481a5ca6f80b2/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="GialloTV.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/giallo.png"tvg-chno="38"group-title="Discovery":http-user-agent="",Giallo
-https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine
+https://d2iz84wnbtnuey.cloudfront.net/out/v1/8a939414e62c460a9ccab7b699ed1106/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="TopCrime.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/topcrime.png"tvg-chno="39"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",Top Crime
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -109,7 +116,9 @@ https://live02-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8
 https://live02-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="K2.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/k2.png"tvg-chno="41"group-title="Discovery":http-user-agent="",K2
-https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine
+https://d1pmpe0hs35ka5.cloudfront.net/K2_IT_1.m3u8
 
 #EXTINF:-1 tvg-id="RaiGulp.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raigulp.png"tvg-chno="42"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Gulp
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -120,7 +129,9 @@ https://raigulp1-dash-live.akamaized.net/dash/live/663985/raigulp1/manifest.mpd
 https://raiyoyo1-dash-live.akamaized.net/dash/live/663949/raiyoyo1/manifest.mpd
 
 #EXTINF:-1 tvg-id="Frisbee.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/frisbee.png"tvg-chno="44"group-title="Discovery":http-user-agent="",Frisbee
-https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine
+https://d6m7lubks416z.cloudfront.net/Frisbee_IT_1.m3u8
 
 #EXTINF:-1 tvg-id="Cartoonito.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/cartoonito.png"tvg-chno="46"group-title="Mediaset":http-user-agent="HbbTV/1.6.1",Cartoonito
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -146,7 +157,9 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnt
 https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="DMAX.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/dmax.png"tvg-chno="52"group-title="Discovery":http-user-agent="",DMAX
-https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine
+https://d24suwc4j2wvyy.cloudfront.net/out/v1/1ef9705b7c534751889b6e01bb032f80/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="RaiStoria.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raistoria.png"tvg-chno="54"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Storia
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -157,7 +170,9 @@ https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-HLS8/raistoria.m3u8
 https://live02-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="HGTV.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/homegardentv.png"tvg-chno="56"group-title="Discovery":http-user-agent="",HGTV - Home&Garden
-https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine
+https://d21emhonubg8zy.cloudfront.net/out/v1/063d830ad098456e8c76bd198dea0122/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="RaiScuola.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/raiscuola.png"tvg-chno="57"group-title="Rai":http-user-agent="HbbTV/1.6.1",Rai Scuola
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -168,7 +183,9 @@ https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-HLS8/raiscuola.m3u8
 https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8
 
 #EXTINF:-1 tvg-id="MotorTrend.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/discoveryturbo.png"tvg-chno="59"group-title="Discovery":http-user-agent="",Discovery Turbo
-https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://d54or4x1qhv8g.cloudfront.net/drm/v2/license?drm-type=widevine
+https://d1m086gym5403i.cloudfront.net/out/v1/fa965f3d7abe46108988aed4fb3d0ee5/HLS_CMAF_DRM/index.m3u8
 
 #EXTINF:-1 tvg-id="Sportitalia.it"tvg-logo="https://raw.githubusercontent.com/maginetweb-arch/TVITALIA/refs/heads/main/TVL/sportitalia.png"tvg-chno="60"group-title="Altro":http-user-agent="",Sportitalia
 https://edge-001.streamup.eu/sportitalia/sihd_abr2/sportitalia/sihd_720p/playlist.m3u8
